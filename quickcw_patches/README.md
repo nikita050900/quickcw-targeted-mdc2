@@ -37,7 +37,7 @@ the distance is known, so the two are no longer independent. These modules fix
 `log10_h0` to `Uniform(-18, -11)` and place the detection or upper limit prior
 shape on `log10_Mc` instead, over `[m_min, m_max]`. The lower bound is the
 clipped value from `postproc/mc_range.py`, which for the injection at 75.4 Mpc
-and 3.7 nHz gives 7.03. The upper bound is 10 in all four modules, matching Table 2 of the paper. The production chains for Runs A to D and G were generated with the bound at 11; the Section 5.3 upper limits sit near 9.8, far below either bound, so the difference does not enter the quoted results.
+and 3.7 nHz gives 7.03. The upper bound is 10 in all four modules, matching Table 2 of the paper.
 
 **GWB amplitude prior.** `gwb_log10_A` is `Uniform(-18, -11)` in all four
 modules, matching the GWB amplitude prior of Table 2, rather than the upstream
