@@ -2,16 +2,9 @@
 
 Companion code for **"Adapting QuickCW for Targeted Continuous Wave Searches
 with Pulsar Timing Arrays"**, N. Agarwal, B. Larsen, L. Dey, S. Burke-Spolaor,
-B. Bécsy, W. Fiore and C. A. Witt, in preparation for Classical and Quantum
-Gravity (2026).
+B. Bécsy, W. Fiore and C. A. Witt, in preparation.
 
-In a targeted search the sky position and luminosity distance of a candidate
-supermassive black hole binary are already modeled from electromagnetic
-observations. A general purpose continuous wave sampler does not use that
-information, and its priors are not self consistent once the distance is
-fixed. This work develops the machinery that makes a targeted search work,
-and validates it end to end on the IPTA Mock Data Challenge 2 datasets
-(Hazboun et al. 2018, Baker et al. 2019).
+QuickCW (Bécsy et al. 2022) is built for all sky continuous wave searches and does not sample the luminosity distance, so it cannot directly apply the distance constraint a targeted search requires. The paper adapts QuickCW to the targeted regime with a post processing distance mask and a physically motivated lower bound on the chirp mass prior, and validates the modified pipeline on the IPTA Mock Data Challenge 2 datasets (Hazboun et al. 2018, Baker et al. 2019).
 
 ## What this work contributes
 
@@ -113,6 +106,11 @@ timing comparison. `dataset/pulsar_positions.py` writes the pulsar sky
 positions that `figures/fig_skymap.py` overplots, which must be run before the
 skymap.
 
+Figure 2 reads the chain files named in the header of
+`figures/fig_ntol_sweep.py`. Those are the runs that produced the published
+figure and predate the 4core file naming, so their names differ from the
+table above.
+
 ## Reproducing
 
 1. Get the data. IPTA MDC2 is at https://github.com/ipta/mdc2. Nothing in this
@@ -198,7 +196,6 @@ journal reference once the paper is published.
                  {Burke-Spolaor}, Sarah and {B{\'e}csy}, Bence and {Fiore}, William and
                  {Witt}, Caitlin A.},
         title = "{Adapting QuickCW for Targeted Continuous Wave Searches with Pulsar Timing Arrays}",
-      journal = {Classical and Quantum Gravity},
          year = 2026,
          note = {in preparation},
 }
