@@ -43,7 +43,7 @@ and `QuickCW_G2D2_allsky.py`. The upper limits reported in Section 5.3 lie
 well below both, so the difference does not enter the quoted results.
 
 **GWB amplitude prior.** `gwb_log10_A` is `Uniform(-18, -11)` in all four
-modules, matched to the Enterprise prior of Table 2, rather than the upstream
+modules, matching the GWB amplitude prior of Table 2, rather than the upstream
 `Uniform(-20, -11)`.
 
 **GWB spectral index.** Following Baker et al. (2019), `gwb_gamma` is fixed at
