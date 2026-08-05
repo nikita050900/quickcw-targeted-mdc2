@@ -1,0 +1,13 @@
+*.h5
+*.hdf5
+*.pkl
+*.out
+*.err
+*.log
+chains/
+output/
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

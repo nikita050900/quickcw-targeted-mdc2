@@ -1,0 +1,25 @@
+# Environment used for the runs reported in the paper, Python 3.9.
+#
+# QuickCW is not on PyPI and is not installed as a package here. Install it
+# from source and apply the four modules in quickcw_patches/ as described in
+# quickcw_patches/README.md.
+#
+#   git clone https://github.com/bencebecsy/QuickCW.git
+#   pip install -e QuickCW
+#   cp quickcw_patches/*.py QuickCW/QuickCW/
+
+numpy==1.26.4
+scipy==1.13.1
+h5py==3.14.0
+numba==0.59.1
+matplotlib==3.9.4
+corner==2.2.3
+emcee==3.1.6
+enterprise-pulsar==3.4.4
+enterprise_extensions==3.0.3
+PTMCMCSampler==2.1.2
+
+# astropy, healpy and libstempo came from conda-forge rather than PyPI, so
+# they carry no pinned version here. Install them with conda:
+#
+#   conda install -c conda-forge astropy healpy libstempo
