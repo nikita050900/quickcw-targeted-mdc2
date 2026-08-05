@@ -2,7 +2,7 @@
 
 Companion code for **"Adapting QuickCW for Targeted Continuous Wave Searches
 with Pulsar Timing Arrays"**, N. Agarwal, B. Larsen, L. Dey, S. Burke-Spolaor,
-B. Bécsy, W. Fiore and C. A. Witt, submitted to Classical and Quantum
+B. Bécsy, W. Fiore and C. A. Witt, in preparation for Classical and Quantum
 Gravity (2026).
 
 In a targeted search the sky position and luminosity distance of a candidate
@@ -189,7 +189,8 @@ run drivers are available from the corresponding author on reasonable request.
 ## Citing
 
 If you use the methods, the code in this repository or the deposited
-posteriors, please cite the paper:
+posteriors, please cite the paper. The entry below will be updated with the
+journal reference once the paper is published.
 
 ```
 @ARTICLE{Agarwal2026,
@@ -199,7 +200,7 @@ posteriors, please cite the paper:
         title = "{Adapting QuickCW for Targeted Continuous Wave Searches with Pulsar Timing Arrays}",
       journal = {Classical and Quantum Gravity},
          year = 2026,
-         note = {submitted},
+         note = {in preparation},
 }
 ```
 
