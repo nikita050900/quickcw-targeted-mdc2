@@ -106,10 +106,10 @@ timing comparison. `dataset/pulsar_positions.py` writes the pulsar sky
 positions that `figures/fig_skymap.py` overplots, which must be run before the
 skymap.
 
-Figure 2 reads the chain files named in the header of
-`figures/fig_ntol_sweep.py`. Those are the runs that produced the published
-figure and predate the 4core file naming, so their names differ from the
-table above.
+Figure 2 reads the files named in the header of
+`figures/fig_ntol_sweep.py`: the unmasked 4core Run D chain, the Run M chain
+(whose file name carries a stale ntol tag), a 10 percent prior QuickCW-dL
+chain from an earlier single core run, and the original Enterprise chain.
 
 ## Reproducing
 
