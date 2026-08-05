@@ -147,7 +147,7 @@ Zenodo deposit and skip steps 4 to 6.
 The IPTA MDC2 data are at https://github.com/ipta/mdc2 and are not
 redistributed here. The dL masked posterior files and the reduced chains the
 figure scripts read are deposited at Zenodo,
-https://doi.org/10.5281/zenodo.21812004.
+https://doi.org/10.5281/zenodo.21813180.
 
 The raw chains are about 141 GB across the eleven QuickCW family runs and are
 too large to deposit. Those, the frozen conda environment, the QuickCW-dL run
