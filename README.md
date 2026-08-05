@@ -6,7 +6,7 @@ B. Bécsy, W. Fiore and C. A. Witt, submitted to Classical and Quantum
 Gravity (2026).
 
 In a targeted search the sky position and luminosity distance of a candidate
-supermassive black hole binary are already known from electromagnetic
+supermassive black hole binary are already modeled from electromagnetic
 observations. A general purpose continuous wave sampler does not use that
 information, and its priors are not self consistent once the distance is
 fixed. This work develops the machinery that makes a targeted search work,
@@ -220,22 +220,5 @@ and QuickCW, the sampler this work is built on:
 
 Also cite Hazboun et al. (2018) and Baker et al. (2019) for the IPTA MDC2
 data, and libstempo (Vallisneri 2020) if you rebuild the pulsar objects.
-
-## Credit
-
-The methods, code and analysis in this repository are by N. Agarwal unless
-stated otherwise below.
-
-- QuickCW, the underlying sampler and likelihood, is by B. Bécsy, N. J.
-  Cornish and M. C. Digman, used unmodified apart from the four files in
-  `quickcw_patches/`.
-- QuickCW-dL, the direct distance sampling pipeline compared against here, is
-  by L. Dey.
-- Runs H to K were performed by B. Larsen.
-- `dataset/noise_models.py` builds on preliminary MDC2 noise modelling code by
-  W. Fiore.
-- Earlier targeted search methodology that informed this approach is by
-  C. A. Witt.
-- The project was supervised by S. Burke-Spolaor.
 
 Released under the MIT license.
